@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+th{
+    color:skyblue;
+    font-weight: bolder;
+}
+
+h1{
+    color: blue;
+    font-weight: 500px;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+}
+div.rowmt-3{
+    float:left;
+    clear:left;
+}
+p{
+    font-size: 40px;
+}
+.top-div{
+    align-content: center;
+    width:100%;
+    font-size:large;
+}
+.custom-select{
+    tab-size: 20;
+}
+.col-sm{
+    width:100%
 }
